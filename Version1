@@ -55,13 +55,5 @@ public Registration() {
 		rdbtnNewRadioButton.setBounds(224, 158, 127, 29);
 		frame.getContentPane().add(rdbtnNewRadioButton);
 		
-		JLabel lblNewLabel = new JLabel("Enter your Card Details");
-		lblNewLabel.setFont(new Font("Calibri", Font.PLAIN, 18));
-		lblNewLabel.setBounds(193, 196, 186, 29);
-		frame.getContentPane().add(lblNewLabel);
 		
-		JLabel lblCardNo = new JLabel("Card No.");
-		lblCardNo.setFont(new Font("Calibri", Font.PLAIN, 18));
-		lblCardNo.setBounds(136, 238, 90, 29);
-		frame.getContentPane().add(lblCardNo);
 
