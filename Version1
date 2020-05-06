@@ -54,6 +54,42 @@ public Registration() {
 		rdbtnNewRadioButton.setFont(new Font("Calibri", Font.PLAIN, 18));
 		rdbtnNewRadioButton.setBounds(224, 158, 127, 29);
 		frame.getContentPane().add(rdbtnNewRadioButton);
+		JLabel lblNewLabel = new JLabel("Enter your Card Details");
+		lblNewLabel.setFont(new Font("Calibri", Font.PLAIN, 18));
+		lblNewLabel.setBounds(193, 196, 186, 29);
+		frame.getContentPane().add(lblNewLabel);
 		
+		JLabel lblCardNo = new JLabel("Card No.");
+		lblCardNo.setFont(new Font("Calibri", Font.PLAIN, 18));
+		lblCardNo.setBounds(136, 238, 90, 29);
+		frame.getContentPane().add(lblCardNo);
+		
+		textField = new JTextField();
+		textField.setBounds(238, 238, 207, 22);
+		frame.getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblCvv = new JLabel("CVV");
+		lblCvv.setFont(new Font("Calibri", Font.PLAIN, 19));
+		lblCvv.setBounds(136, 280, 53, 25);
+		frame.getContentPane().add(lblCvv);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(238, 281, 90, 22);
+		frame.getContentPane().add(textField_1);
+		textField_1.setColumns(10);
+		
+		JButton btnRegister = new JButton("Register");
+		btnRegister.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				JOptionPane.showMessageDialog(null,"You have successfully registered");
+			}
+		});
+		btnRegister.setFont(new Font("Calibri", Font.PLAIN, 18));
+		btnRegister.setBounds(220, 337, 97, 25);
+		frame.getContentPane().add(btnRegister);
+	}
+}
+
 		
 
