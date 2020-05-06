@@ -24,3 +24,44 @@ public class Registration {
 			}
 		});
 	}
+public Registration() {
+		initialize();
+	}
+
+	private void initialize() {
+		frame = new JFrame();
+		frame.getContentPane().setFont(new Font("Calibri", Font.PLAIN, 18));
+		frame.setBounds(100, 100, 653, 546);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblSelectTheEvent = new JLabel("Select the Event to Register");
+		lblSelectTheEvent.setFont(new Font("Calibri", Font.PLAIN, 18));
+		lblSelectTheEvent.setBounds(193, 55, 313, 29);
+		frame.getContentPane().add(lblSelectTheEvent);
+		
+		JRadioButton rdbtnTechFest = new JRadioButton("Tech Fest");
+		rdbtnTechFest.setFont(new Font("Calibri", Font.PLAIN, 18));
+		rdbtnTechFest.setBounds(224, 93, 127, 25);
+		frame.getContentPane().add(rdbtnTechFest);
+		
+		JRadioButton rdbtnCulturalFest = new JRadioButton("Cultural Fest");
+		rdbtnCulturalFest.setFont(new Font("Calibri", Font.PLAIN, 18));
+		rdbtnCulturalFest.setBounds(224, 128, 127, 25);
+		frame.getContentPane().add(rdbtnCulturalFest);
+		
+		JRadioButton rdbtnNewRadioButton = new JRadioButton("Both");
+		rdbtnNewRadioButton.setFont(new Font("Calibri", Font.PLAIN, 18));
+		rdbtnNewRadioButton.setBounds(224, 158, 127, 29);
+		frame.getContentPane().add(rdbtnNewRadioButton);
+		
+		JLabel lblNewLabel = new JLabel("Enter your Card Details");
+		lblNewLabel.setFont(new Font("Calibri", Font.PLAIN, 18));
+		lblNewLabel.setBounds(193, 196, 186, 29);
+		frame.getContentPane().add(lblNewLabel);
+		
+		JLabel lblCardNo = new JLabel("Card No.");
+		lblCardNo.setFont(new Font("Calibri", Font.PLAIN, 18));
+		lblCardNo.setBounds(136, 238, 90, 29);
+		frame.getContentPane().add(lblCardNo);
+
