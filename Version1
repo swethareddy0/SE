@@ -74,17 +74,7 @@ public Registration() {
 		lblCvv.setBounds(136, 280, 53, 25);
 		frame.getContentPane().add(lblCvv);
 		
-		textField_1 = new JTextField();
-		textField_1.setBounds(238, 281, 90, 22);
-		frame.getContentPane().add(textField_1);
-		textField_1.setColumns(10);
 		
-		JButton btnRegister = new JButton("Register");
-		btnRegister.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				JOptionPane.showMessageDialog(null,"You have successfully registered");
-			}
-		});
 		btnRegister.setFont(new Font("Calibri", Font.PLAIN, 18));
 		btnRegister.setBounds(220, 337, 97, 25);
 		frame.getContentPane().add(btnRegister);
